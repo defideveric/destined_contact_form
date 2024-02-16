@@ -42,10 +42,6 @@ export default function Home() {
           textColor:'4d5055'
         }}
        />
-
-       <button>
-        Click Here 
-       </button>
       </main>
     </>
     
