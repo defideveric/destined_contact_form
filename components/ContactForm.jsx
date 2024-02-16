@@ -35,7 +35,11 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between p-20 bg-white">
        <InlineWidget 
         url="https://calendly.com/defideveric/schedule-a-destined-driver"
-        styles={{height: '700px', width: '700px'}}
+        styles={{
+          height: '700px',
+          minWidth: '420px',
+          alignItems: 'center',
+          }}
         pageSettings={{
           backgroundColor: 'ffffff',
           primaryColor: '00a2ff',
