@@ -33,8 +33,8 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-between p-20 bg-white">
-       <InlineWidget 
-        url="https://calendly.com/defideveric/schedule-a-destined-driver"
+       <InlineWidget up
+        url="https://calendly.com/wearedestinedtoo/schedule-a-driver-for-donation-pick-up"
         styles={{
           height: '700px',
           minWidth: '420px',
